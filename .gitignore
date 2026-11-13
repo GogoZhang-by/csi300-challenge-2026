@@ -1,0 +1,52 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── 比赛数据与中间产物（不提交，遵循赛事数据授权）──────────
+data.zip
+data_temp/
+result/
+catboost_info/
+baseline_temp/
+artifacts/
+*.parquet
+*.csv
+*.zip
+*.html
+
+# ── 提交包中间版本与开发草稿 ─────────────────────────────
+submission_probe/
+submission_test/
+submission_src/
+
+# ── 比赛官方材料（赛题 PDF，可自行决定是否入库）────────────
+Competition_Rules.pdf
+Problem.pdf
+Submission_Rules.pdf
+FNR_*.pdf
+
+# ── 参考材料：他人仓库保存页 ─────────────────────────────
+HenryZ16*
+skd-backtest*
+
+# ── IDE / 本地配置 ──────────────────────────────────────
+.trae/
+.vscode/
+.idea/
+.DS_Store
+
+# ── 密钥与本地环境 ──────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+id_*
+*.key
